@@ -18,9 +18,11 @@ import org.testng.annotations.BeforeTest;
 public class FullPageScreenshot {
 	WebDriver driver;
 	
-	public DefaultSelenium selenium=new DefaultSelenium("localhost",5826,"*firefox","http://techlearn.in");
-	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	 
+	/*
+	 * public DefaultSelenium selenium=new
+	 * DefaultSelenium("localhost",5826,"*firefox","http://techlearn.in");
+	 * driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	 */
 	/*@Test
 	  public void fullPageScreenshot() throws IOException {
 		  driver.get("http://seleniumlearn.com/java");		
