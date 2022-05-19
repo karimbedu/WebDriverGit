@@ -14,7 +14,8 @@ public class VemuCollege {
 	  driver.findElement(By.xpath("//*[@id=\"nav\"]/li[10]/a")).click();
 	  driver.findElement(By.name("full_name")).sendKeys("Keerthi K");
 	  driver.findElement(By.name("email_id")).sendKeys("keerthi@gmail.com");
-	  driver.findElement(By.name("phone_no")).sendKeys("9000109120");
+	  driver.findElement(By.name("phone_no")).sendKeys("9980251000");
+	  
   }
   
   @BeforeTest
